@@ -27,3 +27,15 @@ Weather Assistant API
 - unittest + mock — модульное тестирование без интернета
 - Render — бесплатный хостинг для деплоя
 - GitHub — управление версиями
+
+Запуск локального сервера в PowerShell в папке проекта 
+1)pip install -r requirements.txt
+2)$env:OPENWEATHER_API_KEY="e5ddeefb71500c6442ab1ade1aa0f76e"
+python app.py
+В Postman
+Пример GET http://192.168.0.108:5000/weather?city=London
+
+Пример для запуска на Render
+https://weather-project-amnq.onrender.com/weather?city=Moscow
+
+Ссылка на GitHub:https://github.com/KazuyaMishima2005/weather_project.git
